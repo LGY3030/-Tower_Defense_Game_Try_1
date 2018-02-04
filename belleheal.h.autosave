@@ -1,0 +1,13 @@
+#ifndef BELLEHEAL_H
+#define BELLEHEAL_H
+#include<QGraphicsPixmapItem>
+#include<QObject>
+class belleheal: public QObject,public QGraphicsPixmapItem{
+    Q_OBJECT
+public:
+    belleheal(QGraphicsItem * parent=0);
+public slots:
+    void move();
+private:
+};
+#endif // BELLEHEAL_H
