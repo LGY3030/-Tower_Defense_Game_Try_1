@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>towerA.png</file>
+        <file>background.jpg</file>
+        <file>enemy_towerA.png</file>
+        <file>missile.png</file>
+        <file>enemy.png</file>
+        <file>towerbomb.png</file>
+        <file>CSIEman.png</file>
+        <file>bullet.png</file>
+        <file>belleheal.png</file>
+        <file>belle.png</file>
+        <file>tank.png</file>
+        <file>tankattack.png</file>
+        <file>CSIEmanattack.png</file>
+        <file>tankicon.png</file>
+        <file>belleicon.png</file>
+        <file>csiemanicon.png</file>
+        <file>dirtymanattack.png</file>
+        <file>dirtymanicon.png</file>
+        <file>dirtyman.png</file>
+        <file>lose.png</file>
+        <file>win.png</file>
+        <file>towerB.png</file>
+        <file>enemy_towerB.png</file>
+    </qresource>
+</RCC>
