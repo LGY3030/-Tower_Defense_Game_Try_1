@@ -22,7 +22,7 @@ enemy::enemy(QGraphicsItem *parent)
     timer->start(1000);
 }
 
-void enemy::decrease(int attacked)
+int enemy::decrease(int attacked)
 {
     health= health-attacked;
     return health;

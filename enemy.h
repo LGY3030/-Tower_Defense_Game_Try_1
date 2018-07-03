@@ -6,7 +6,7 @@ class enemy: public QObject,public QGraphicsPixmapItem{
     Q_OBJECT
 public:
     enemy(QGraphicsItem * parent=0);
-    void decrease(int attacked);
+    int decrease(int attacked);
     int health=10;
     QTimer * timer;
     QTimer * time;
